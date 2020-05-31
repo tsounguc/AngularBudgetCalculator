@@ -119,6 +119,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularFirebaseAuth"
+    }
+  },
+  "defaultProject": "AngularFirebaseAuth",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "css"
+    }
+  }
 }
